@@ -127,3 +127,24 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* Tablet version */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    section {
+        display: flex;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+        padding-bottom: 60px;
+    }
+
+    .site-header {
+        margin-top: 0;
+    }
+}
+
+/* Mobile version */
+@media screen and (max-width: 480px) {
+    
+}
