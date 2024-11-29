@@ -128,6 +128,19 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* Desktop version */
+@media screen and (min-width: 769px) {
+    .site-header {
+        margin-top: 0;
+        padding-top: 3rem;
+    }
+    
+    .why-us {
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+}
+
 /* Tablet version */
 @media screen and (max-width: 768px) {
 
