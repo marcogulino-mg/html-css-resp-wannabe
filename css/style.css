@@ -128,88 +128,69 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* Desktop version */
-@media screen and (min-width: 769px) {
+ /* All-Devices version */
+ @media screen and (min-width: 360px) {
     .site-header {
         margin-top: 0;
         padding-top: 3rem;
     }
-    
+
     .why-us {
         margin-bottom: 0;
         padding-bottom: 3rem;
     }
-}
 
-/* Tablet version */
-@media screen and (max-width: 768px) {
+ }
 
-    /* GENERIC ID/CLASSES */
-    section {
-        display: flex;
+ /* Tablet version */
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
     }
-
-    /* HEADER */
-    .site-header {
-        margin-top: 0;
-        padding-top: 25px;
-    }
-
-    /* THIRD SECTION */
-    .why-us {
-        margin-bottom: 0;
-        padding-bottom: 60px;
-    }
-
 }
 
 /* Mobile version */
-@media screen and (max-width: 480px) {
+@media screen  and (max-width: 480px) {
 
-    /* GENERIC ID/CLASSES */
-    h1 {
-        padding-top: 1rem;
-    }
-
+    /* GENERICS VALUES */
     .container {
-        padding: 0 51px;
+        padding: 0 60px;
     }
 
     .row {
         flex-wrap: wrap;
     }
 
-    .card {
-        padding-bottom: 40px;
+    .col {
+        padding-bottom: 3em;
     }
 
-    /* FIRST SECTION */
+    /* LESSONS SECTION */
     .lessons .col {
         width: 100%;
     }
 
-    /* SECOND SECTION */
+    /* STEPS SECTION */
+    .steps {
+        margin: 0;
+    }
+
     .steps .col {
         width: 100%;
     }
-    
-    .steps {
-        margin: 3rem 0 0 0;
-    }
 
-    /* THIRD SECTION */
+    /* WHY-US SECTION */
     .why-us {
         background-color: #000000;
-        padding-top: 50px;
-    }
-
-    .why-us .col-right {
-        width: 100%;
+        padding-top: 3rem;
     }
 
     .why-us .col-left {
         width: 100%;
-        padding-bottom: 60px;
+    }
+
+    .why-us .col-right {
+        width: 100%;
     }
 
 }
